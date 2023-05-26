@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+<body>
+    <h1>{{ header }}</h1>
+    <p>{{ username }}</p>
+    {% for product in products %}
+        <h3>{{ product.name }}</h3>
+        <p>{{ product.price }} $</p>
+    {% endfor %}
+
+    {% if promoted_products %}
+        <h2 style="color: red"><b>Sale!</b></h2>
+        {% for product in promoted_products %}
+            <h3>{{ product.name }}</h3>
+            <p><s>{{ product.old_price }} $</s></p>
+            <p>{{ product.price }} $</p>
+        {% endfor %}
+    {% endif %}
+</body>
+</html>

@@ -1,0 +1,80 @@
+[
+  {
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+      "name": "Black hoodie with monograms Adidas Originals",
+      "image": "products_images/Adidas-hoodie.png",
+      "description": "",
+      "short_description": "Soft fabric for sweatshirts. Fashion and comfort is a lifestyle",
+      "price": "6090.00",
+      "quantity": 666,
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+      "name": "Blue jacket The North Face",
+      "image": "products_images/Blue-jacket-The-North-Face.png",
+      "description": "",
+      "short_description": "Smooth fabric, waterproof coating. Light and warm jacket",
+      "price": "23725.00",
+      "quantity": 666,
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+      "name": "Brown sports oversized top ASOS DESIGN",
+      "image": "products_images/Brown-sports-oversized-top-ASOS-DESIGN.png",
+      "description": "",
+      "short_description": "Plush material. Comfortable and soft",
+      "price": "3390.00",
+      "quantity": 666,
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+      "name": "Black backpack Nike Heritage",
+      "image": "products_images/Black-Nike-Heritage-backpack.png",
+      "description": "",
+      "short_description": "Thick fabric, lightweight material",
+      "price": "2340.00",
+      "quantity": 666,
+      "category": 3
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+      "name": "Black platformed shoes 3 pairs of eyelets Dr Martens 1461 Bex",
+      "image": "products_images/Black-Dr-Martens-shoes.png",
+      "description": "",
+      "short_description": "Smooth leather upper. Natural material",
+      "price": "13590.00",
+      "quantity": 666,
+      "category": 2
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+      "name": "Dark-blue wide leg formal trousers ASOS DESIGN",
+      "image": "products_images/Dark-blue-wide-leg-ASOs-DESIGN-trousers.png",
+      "description": "",
+      "short_description": "Light stretch seersucker fabric, textured material",
+      "price": "2890.00",
+      "quantity": 666,
+      "category": 1
+    }
+  }
+]
